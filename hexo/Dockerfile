@@ -5,7 +5,7 @@ MAINTAINER Yang Liu <istef.liu@gmail.com>
 # prepare work directory
 WORKDIR /hexo
 
-# install hexo
+# install hexo and hexo server
 RUN \
     npm install hexo-cli -g \
     && npm install hexo-server -g
